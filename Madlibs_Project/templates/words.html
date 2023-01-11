@@ -1,0 +1,25 @@
+
+
+{% extends 'base.html' %} 
+
+{% block title %} Madlibs Project {% endblock %} 
+
+{% block content %}
+
+
+    <form action="/game">  
+        
+        <input type="text" placeholder="Place" name="place">
+        <br>
+        <input type="text" placeholder="Noun" name="noun">
+        <br>
+        <input type="text" placeholder="Verb" name="verb">
+        <br>
+        <input type="text" placeholder="Adjective" name="adjective">
+        <br>
+        <input type="text" placeholder="Plural-Noun" name="term">
+
+        <button> Submit!</button>
+    </form>
+
+{% endblock %}
